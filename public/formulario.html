@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" id="formulario">
+        <h2>REGISTRAR USUARIO</h2>
+        <label>ID DE USUARIO</label>
+        <input type="number" id="idusuario">
+        <label>Correo</label>
+        <input type="email" id="emailUsuario" name="emailUsuario">
+        <label>Usuario</label>
+        <input type="text" id="usuario" name="usuario">
+        <label>Contraseña</label>
+        <input type="password" name="contrasena" id="contrasena">
+        <label>Teléfono</label>
+        <input type="text" id="telefono">
+        <label>Dirección</label>
+        <input type="text" name="direccionusuario" id="direccion">
+        <label>Fecha</label>
+        <input type="date" id="fecha">
+        <button id="enviar" type="submit">Registrar</button>
+    </form>
+
+    <script>
+        const form = document.getElementById('formulario');
+/*
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const data = {
+                id: document.getElementById('idusuario').value,
+                correo: document.getElementById('emailUsuario').value,
+                nombre: document.getElementById('usuario').value,
+                contrasena: document.getElementById('contrasena').value,
+                telefono: document.getElementById('telefono').value,
+                direccion: document.getElementById('direccion').value,
+                fecha: document.getElementById('fecha').value
+            };
+            await fetch('/guardar-json', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            alert('Guardado en JSON');
+        });
+*/
+        document.getElementById('enviar').addEventListener('click', async () => {
+            const data = {
+                id: document.getElementById('idusuario').value,
+                correo: document.getElementById('emailUsuario').value,
+                nombre: document.getElementById('usuario').value,
+                contrasena: document.getElementById('contrasena').value,
+                telefono: document.getElementById('telefono').value,
+                direccion: document.getElementById('direccion').value,
+                fecha: document.getElementById('fecha').value
+            };
+            await fetch('/guardar-bd', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            alert('Guardado en MySQL');
+        });
+    </script>
+</body>
+</html>

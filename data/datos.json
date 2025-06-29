@@ -1,0 +1,83 @@
+[
+  {
+    "id": "4",
+    "correo": "prueba@gmail.com",
+    "nombre": "b",
+    "contrasena": "1234567",
+    "telefono": "3214567654",
+    "direccion": "calle1",
+    "fecha": "2025-06-14"
+  },
+  {
+    "id": "4",
+    "correo": "prueba@gmail.com",
+    "nombre": "b",
+    "contrasena": "1234567",
+    "telefono": "3214567654",
+    "direccion": "calle1",
+    "fecha": "2025-06-14"
+  },
+  {
+    "id": "1",
+    "correo": "prueba@gmail.com",
+    "nombre": "asdad",
+    "contrasena": "123456789",
+    "telefono": "3214568987",
+    "direccion": "calle1",
+    "fecha": "2025-06-14"
+  },
+  {
+    "id": "1",
+    "correo": "prueba@gmail.com",
+    "nombre": "asdad",
+    "contrasena": "123456789",
+    "telefono": "3214568987",
+    "direccion": "calle1",
+    "fecha": "2025-06-14"
+  },
+  {
+    "id": "6",
+    "correo": "prueba@gmail.com",
+    "nombre": "asdad",
+    "contrasena": "12345678",
+    "telefono": "3214567654",
+    "direccion": "calle1",
+    "fecha": "2025-06-14"
+  },
+  {
+    "id": "8",
+    "correo": "prueba@gmail.com",
+    "nombre": "sds",
+    "contrasena": "23456789",
+    "telefono": "3214568987",
+    "direccion": "calle1",
+    "fecha": ""
+  },
+  {
+    "id": "8",
+    "correo": "prueba@gmail.com",
+    "nombre": "sds",
+    "contrasena": "23456789",
+    "telefono": "3214568987",
+    "direccion": "calle1",
+    "fecha": "2025-06-14"
+  },
+  {
+    "id": "1",
+    "correo": "prueba@gmail.com",
+    "nombre": "asdad",
+    "contrasena": "",
+    "telefono": "3214568987",
+    "direccion": "calle1",
+    "fecha": "2025-06-14"
+  },
+  {
+    "id": "2",
+    "correo": "prueba@gmail.com",
+    "nombre": "asdad",
+    "contrasena": "12345678986543",
+    "telefono": "3214568987",
+    "direccion": "calle1",
+    "fecha": "2025-06-14"
+  }
+]
