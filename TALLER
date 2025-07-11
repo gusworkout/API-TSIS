@@ -1,0 +1,99 @@
+1. Visual Studio: Crear un Proyecto Web Básico
+Explicación:
+Visual Studio es un entorno de desarrollo que permite crear sitios web. Puedes iniciar un proyecto HTML y ver el resultado en el navegador.
+Ejercicio:
+•	Abre Visual Studio.
+•	Crea un proyecto Sitio Web Vacío.
+•	Agrega un archivo index.html.
+•	Escribe un mensaje <h1>¡Mi primer sitio web!</h1>.
+Caso 1:
+Crea una página de presentación personal donde incluyas tu nombre, edad y una imagen de tu pasatiempo favorito.
+-----------------------------------------------------------------------
+ 2. HTML: Estructura Básica de una Página
+Explicación:
+HTML organiza el contenido mediante etiquetas como <head>, <body>, <h1>, <p>, <img>.
+Ejercicio:
+Escribe la estructura mínima de un documento HTML que contenga:
+•	Un título de página.
+•	Un párrafo con tu comida favorita.
+Caso 2:
+Diseña una tarjeta de perfil con tu nombre, foto y una breve descripción tuya.
+------------------------------------------------
+
+ 3. HTML: Hipervínculos y Listas
+Explicación:
+Puedes crear enlaces con <a> y listas con <ul> y <ol>.
+Ejercicio:
+Crea una lista de tus tres sitios web favoritos con enlaces que los abran en otra pestaña.
+Caso 3:
+Arma un índice de contenidos para un mini-sitio de recetas con enlaces a cada receta.
+--------------------------------------------------------
+ 4. CSS: Estilos Básicos
+Explicación:
+CSS sirve para dar color, tamaño y estilo al contenido HTML.
+Ejercicio:
+Crea un archivo style.css que:
+•	Cambie el fondo de la página.
+•	Aumente el tamaño de los títulos.
+Caso 4:
+Personaliza tu tarjeta de perfil con colores y bordes que la hagan atractiva.
+--------------------------------------------------------
+
+ 5. CSS: Selectores y Clases
+Explicación:
+Puedes usar selectores de clase (.miClase) para dar estilo a varios elementos.
+Ejercicio:
+•	Asigna una clase llamada resaltado a un párrafo.
+•	Haz que ese párrafo tenga un color de fondo diferente.
+Caso 5:
+Crea dos secciones de tu página (por ejemplo, Sobre mí y Contacto) con estilos distintos.
+--------------------------------------------------------
+
+ 6. PowerPoint: Presentaciones Básicas
+Explicación:
+PowerPoint permite crear diapositivas con texto, imágenes y transiciones.
+Ejercicio:
+Crea una presentación de 4 diapositivas:
+1.	Portada con tu nombre.
+2.	Tus hobbies.
+3.	Una imagen inspiradora.
+4.	Un mensaje de despedida.
+Caso 6:
+Prepara una presentación “Mis metas para este año” con imágenes y efectos de transición.
+--------------------------------------------------------
+
+ 7. Excel: Operaciones Básicas
+Explicación:
+Excel permite crear tablas y realizar operaciones aritméticas sencillas.
+Ejercicio:
+En una hoja:
+•	Registra 5 productos con su precio.
+•	Calcula el total con una fórmula.
+Caso 7:
+Simula un presupuesto mensual con gastos y suma automática de los totales.
+ 8. Excel: Funciones Básicas (SUMA, PROMEDIO)
+Explicación:
+Las funciones permiten hacer cálculos automáticos en rangos de celdas.
+Ejercicio:
+Crea una tabla de calificaciones de 3 asignaturas y:
+•	Usa =SUMA() para el total.
+•	Usa =PROMEDIO() para calcular la media.
+Caso 8:
+Realiza una hoja de cálculo con tus notas y calcula el promedio general.
+________________________________________
+ 9. PSeInt: Introducción a Bucles
+Explicación:
+Los bucles permiten repetir instrucciones. En PSeInt se usan Mientras o Para.
+Ejercicio:
+Crea un algoritmo que muestre los números del 1 al 10.
+Caso 9:
+Haz un algoritmo que pida 5 números y muestre la suma total.
+________________________________________
+ 10. PSeInt: Bucle con Condición
+Explicación:
+Puedes usar bucles con condiciones para controlar cuántas veces se ejecuta el bloque de código.
+Ejercicio:
+Escribe un algoritmo que pida contraseñas hasta que el usuario escriba "1234".
+Caso 10:
+Programa un menú que se repita hasta que el usuario seleccione la opción Salir.
+
