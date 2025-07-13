@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" id="formulario">
+        <h2>AGREGAR REACCION</h2>
+        <label>Id de reaccion</label>
+        <input type="date" id="idreaccion">
+        <label>Id usuario</label>
+        <input type="number" id="idusuario">
+        <label>dTipo de reaccion</label>
+        <input type="text" id="tiporeaccion" name="usuario">
+       
+        <button id="enviar" type="submit">Registrar</button>
+    </form>
+    <script>
+        const form = document.getElementById('formulario');
+
+        document.getElementById('enviar').addEventListener('click', async () => {
+            const data = {
+                idreaccion: document.getElementById('idreaccion').value,
+                idusuario: document.getElementById('idusuario').value,
+                tiporeaccion: document.getElementById('tiporeaccion').value,
+            };
+            await fetch('/guardar-bd', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            alert('Guardado en MySQL');
+        });
+    </script>
+</body>
+</html>

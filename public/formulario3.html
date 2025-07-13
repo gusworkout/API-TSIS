@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" id="formulario">
+        <h2>AGREGAR PUBLICACION</h2>
+        <label>Fecha de publicacion</label>
+        <input type="date" id="fechapublicacion">
+        <label>Id usuario</label>
+        <input type="number" id="idusuario">
+        <label>descripcion</label>
+        <input type="text" id="descripcion" name="usuario">
+        <label>etiquetas</label>
+        <input type="text" name="etiqueta" id="etiqueta">
+        <label>id de comentario</label>
+        <input type="number" id="idcomentario">
+        <label>numero de reacciones</label>
+        <input type="number" name="" id="numreacciones">
+        <label>id de reaccione</label>
+        <input type="number" id="idreaccion">
+        <label>Vistas</label>
+        <input type="number" id="vistas">
+        <label>Archivo</label>
+        <input type="file" id="imgen">
+        <button id="enviar" type="submit">Registrar</button>
+    </form>
+
+    <script>
+        const form = document.getElementById('formulario');
+
+        document.getElementById('enviar').addEventListener('click', async () => {
+            const data = {
+                fechaPublicacion: document.getElementById('fechapublciacion').value,
+                idusuario: document.getElementById('idusuario').value,
+                descripcion: document.getElementById('descripcion').value,
+                etiquetas: document.getElementById('etiqueta').value,
+                idcomentario: document.getElementById('idcomentario').value,
+                numeroReacciones: document.getElementById('numreacciones').value,
+                idreaccion: document.getElementById('idreaccion').value,
+                vistas: document.getElementById('vistas').value,
+                imgen: document.getElementById('imagen').value
+
+            
+            };
+            await fetch('/guardarPublicacion-bd', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            alert('Guardado en MySQL');
+        });
+    </script>
+</body>
+</html>
